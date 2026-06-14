@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bio Link - Alisson</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+  body {
+    font-family: 'Fira Code', monospace, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    margin: 0;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+    /* Fundo temático programação */
+    background-image:
+      linear-gradient(rgba(18,18,18,0.95), rgba(18,18,18,0.95)),
+      repeating-linear-gradient(transparent 0 1px, #2c2c2c 1px 2px),
+      repeating-linear-gradient(90deg, transparent 0 1px, #2c2c2c 1px 2px);
+    background-size: 100% 20px, 20px 100%, 20px 100%;
+  }
+  .container {
+    max-width: 400px;
+    width: 100%;
+    background-color: rgba(30, 30, 30, 0.9);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.8);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid rgba(224, 224, 224, 0.7);
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+  }
+  h1 {
+    margin: 0 0 8px;
+    font-size: 28px;
+    color: #c9d1d3;
+  }
+  p {
+    font-size: 14px;
+    color: #b0b8bf;
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .btn-link {
+    display: block;
+    font-weight: 600;
+    padding: 15px 0;
+    border-radius: 40px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    color: #fff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .btn-instagram {
+    background: #E1306C;
+  }
+  .btn-instagram:hover {
+    background: #c72860;
+    box-shadow: 0 5px 20px #c72860;
+  }
+  .btn-youtube {
+    background: #FF0000;
+  }
+  .btn-youtube:hover {
+    background: #cc0000;
+    box-shadow: 0 5px 20px #cc0000;
+  }
+  .btn-discord {
+    background: #5865F2;
+  }
+  .btn-discord:hover {
+    background: #4752c4;
+    box-shadow: 0 5px 20px #4752c4;
+  }
+  .btn-whatsapp {
+    background: #25D366;
+  }
+  .btn-whatsapp:hover {
+    background: #1ebe5b;
+    box-shadow: 0 5px 20px #1ebe5b;
+  }
+  .social-icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .social-icons a {
+    color: #b0b8bf;
+    font-size: 26px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  .social-icons a:hover {
+    color: #e0e0e0;
+  }
+  @media (max-width: 480px) {
+    .container {
+      padding: 25px 15px;
+    }
+    .btn-link {
+      font-size: 16px;
+      padding: 14px 0;
+    }
+  }
+</style>
+<!-- Font Awesome para ícones sociais -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <img class="avatar" src="banner.webp" alt="Foto do Alisson" />
+    <h1>Alisson...</h1>
+    <p>📍SC • Br<br>
+       🔞18<br>
+       🖥️ Desenvolvedor Front-End<br>
+       📚 HTML • CSS • JavaScript<br>
+       🚀 Aprendendo e criando projetos
+    </p>
+    <div class="links">
+      <a href="https://instagram.com/alisson_edt" target="_blank" class="btn-link btn-instagram">Instagram</a>
+      <a href="https://www.youtube.com/channel/UCwIU6cn-EUlb0Nj-hWQ4P7w" target="_blank" class="btn-link btn-youtube">YouTube</a>
+      <a href="https://discord.gg/bfRhBkMQPA" target="_blank" class="btn-link btn-discord">Discord</a>
+      <a href="https://wa.me/554791491836" target="_blank" class="btn-link btn-whatsapp">WhatsApp</a>
+    </div>
+    <div class="social-icons">
+      <a href="https://instagram.com/alisson_edt" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://discord.gg/bfRhBkMQPA" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
+      <a href="https://www.youtube.com/channel/UCwIU6cn-EUlb0Nj-hWQ4P7w" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="https://wa.me/554791491836" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </div>
+</body>
+</html>
